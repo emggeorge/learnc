@@ -11,7 +11,7 @@
 #define LENGTH 10
 
 int main () {
-    int userArray[LENGTH];
+    int userArray[LENGTH] = {0};
 
     printf("Enter 10 numbers: ");
     for (int i = 0; i < LENGTH; i++) {
